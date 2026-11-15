@@ -388,7 +388,7 @@ while running:
         
         font = pygame.font.Font("fonts/question_font.ttf", 30)
         text = font.render(f"{curr_q.a}", True, (255,255,255))
-        text_rect = text.get_rect(center=(SCREEN_WIDTH/6,SCREEN_HEIGHT/2))
+        text_rect = text.get_rect(center=(SCREEN_WIDTH/5.5,SCREEN_HEIGHT/2))
         screen.blit(text, text_rect)
         
         font = pygame.font.Font("fonts/question_font.ttf", 30)
