@@ -7,8 +7,8 @@ Requirements:
 
 Guide on installing Pygame:
     python -m pip install pygame-ce
-    
-    -> if that gives an error, use this:
+
+If that gives an error, use this:
     python3 -m pip install --upgrade pip
     python -m pip install pygame-ce
     
