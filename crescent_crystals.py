@@ -203,7 +203,6 @@ def draw_gradient_button(rect, top_colour, bottom_colour, hovered):
 curr_q = Q
 
 bg_music = pygame.mixer.Sound("sounds/bg_music.mp3")
-bg_music.play()
 
 find_crystal = pygame.mixer.Sound("sounds/find_crystal.mp3")
 end_music = pygame.mixer.Sound("sounds/end_music.mp3")
@@ -212,6 +211,7 @@ alien_qs = [AABBQ, ABABQ, BAAQ, BABBQ, BBAAQ]
 
 while running:
     
+    bg_music.play()
     for event in pygame.event.get():
         if event.type == pygame.QUIT or (event.type == pygame.KEYDOWN and (event.key == pygame.K_q or event.key == pygame.K_ESCAPE)):
             running = False
