@@ -10,6 +10,7 @@ Guide on installing Pygame:
 
 If that gives an error, use this:
     python3 -m pip install --upgrade pip
+    &&
     python -m pip install pygame-ce
     
 How to play:
